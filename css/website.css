@@ -1,0 +1,469 @@
+/*======================================
+Custom Styles
+======================================*/
+
+
+
+/*  ======================================
+01.  Fix some Bootstrap elements (DO NOT REMOVE)
+====================================== */
+
+img{
+	
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: center;
+}
+
+.thumbnail > img, .thumbnail a > img{
+	width:100%
+}
+
+
+.padding{
+padding: 20px
+	}
+	
+	
+.input-medium, textarea {
+    width: 80%;
+}
+
+/*  ======================================
+02. STRUCTURE
+====================================== */
+
+
+.container{
+	background-color:#F2F2F2
+}
+
+
+
+.logo{
+	text-align:center
+	
+}
+
+
+footer{
+	background-color:#ffffff;
+	color: #8f8f8f;	
+	margin-top:2%
+}
+
+.middle{
+	padding: 40px
+}
+
+.img-left{
+	float: left;
+}
+
+/*
+
+header{
+	
+}
+
+
+.banner{
+}
+
+
+
+
+*/
+
+.more { 
+  background: url( "../images/more.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+  margin-left: -40px;
+  margin-right: -40px;
+  background-size: 100%;
+}
+
+.center-more{
+  padding-top: 120px;
+}
+
+.more-text{
+  color: #FFFFFF;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.gallery { 
+  background: url( "../images/gallery.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;
+  margin-left: -40px;
+  margin-right: -40px;
+  background-size: 100%;
+}
+
+.gallery-text{
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.gallery-center{
+	padding-top: 80px;
+}
+
+.button1{
+	width: 20%;
+}
+
+.image{
+	width: 150px;
+	height: 150px;
+}
+
+.team-center{
+	padding-top: 30px;
+}
+
+.information-text{
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.information { 
+  background: url( "../images/info.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  margin-left: -40px;
+  margin-right: -40px;
+  background-size: 100%;
+}
+/*  ======================================
+03.  TYPOGRAPHY
+====================================== */
+
+h2, h3, h4, h5, h6{
+	color: #a9ff00;
+	font-family: 'Voces';
+}
+
+h1{
+	color: #0100ff;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+
+/*.about-paragraph
+{
+	font-family: 'Lato', sans-serif;
+	color: #6a6a6a;
+	text-align: justify;  
+	margin-left: 60px; 
+	margin-top: 30px;
+}*/
+
+p
+{
+	font-family: 'Lato', sans-serif;
+	color: #6a6a6a;
+	text-align: justify;
+}
+
+.featurette-heading {
+    margin-top: 120px;
+	 font-size: 50px;
+}
+
+.featurette-divider {
+	margin: 80px 0;
+	background-color:#666;
+	height: 2px;
+}
+
+
+footer a:link {
+	font-size: 50px;
+	color: #000000;
+}
+
+/*  ======================================
+04. NAVIGATION
+====================================== */
+
+
+.navbar {
+   margin-bottom: 0px; 
+
+}
+
+
+
+/* Main Navigation Container*/
+.navbar {
+	background-color: #000000; 
+}
+
+
+
+/* Navigation link text color */
+.navbar .nav > li > a {
+    color: #fff;
+}
+
+/* Navigation link text color on hover */
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    background-color: #0100ff;
+    color: #fff;
+}
+
+
+
+
+/* //////////    Collapsed mobile navigation   ///////////////*/
+
+/* Website's Name */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #0100ff;
+}
+
+/* Collapsed navigation open menu button border */
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+
+/* Color of the collapsed navigation open menu icon bar */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+/* Collapsed navigation open menu button on hover */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: #0100ff;
+    color: #fff;
+}
+
+
+
+
+
+
+/*  ======================================
+05.  BOOTSTRAP ELEMENTS
+====================================== */
+
+
+/* ///////  ACCORDIONS / COLLAPSABLE GROUP //////////*/
+
+.panel-default > .panel-heading {
+	background-color: #000000;
+	border-color: #245988;
+	color: #fff;
+}
+
+
+
+/* ///////  TABS //////////*/
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus  {
+    background-color: #0100ff;
+	color:#000;
+    border-color: #ddd;
+}
+
+
+
+.nav-tabs > li > a {
+    background-color: #000000;
+	color:#fff
+}
+
+
+.nav > li > a:hover, .nav > li > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: #ff00f0;
+    text-decoration: none;
+	color:#fff
+}
+
+
+
+.tab-content{
+	background-color:#fff
+	
+}
+
+
+.tab-content {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+
+
+/* ///////  BUTTONS //////////*/
+.btn-primary {
+    background-color: #000000;
+    border-color: #000000;
+    color: #fff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #0100ff;
+    border-color: #0100ff;
+    color: #000;
+}
+
+/*////////////////////////////////////////////////////////////////////
+======================================
+06. Responsive Styles (Media Queries)
+======================================
+////////////////////////////////////////////////////////////////////*/
+
+    /* Large desktop */
+    @media (min-width: 1200px) { 
+	
+	
+	 }
+     
+	 
+	 
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 979px) {
+		
+		}
+		
+		
+		
+ /* Landscape phone to portrait tablet */
+    @media (min-width: 767px) {		
+		.nav.navbar-nav {
+    margin: 0 auto;
+    width: 500px;
+	float:none
+      }
+	}
+		
+     
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) {
+		
+
+	 .featurette-heading {
+    margin-top: 0px;
+      }
+
+
+	.featurette-divider{
+	margin: 20px 0
+	}
+.more { 
+  background: url( "../images/more.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+  margin-left: -40px;
+  margin-right: -40px;
+  background-size: auto;
+}	
+		.gallery { 
+  background: url( "../images/gallery.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;
+  margin-left: -40px;
+  margin-right: -40px;
+  background-size: auto;
+}
+.information { 
+  background: url( "../images/info.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  margin-left: -40px;
+  margin-right: -40px;
+  background-size: auto;
+}
+	 		.audio{
+			display: none;
+		}
+				.information-text{
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+}
+	}
+	
+	
+	
+	
+	 
+    /* Landscape phones and down */
+    @media (max-width: 480px) {
+.more { 
+  background: url( "../images/more.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+  margin-left: -40px;
+  margin-right: -40px;
+  background-size: auto;
+}		
+		.gallery { 
+  background: url( "../images/gallery.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;
+  margin-left: -40px;
+  margin-right: -40px;
+  background-size: auto;
+}
+		.information { 
+  background: url( "../images/info.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  margin-left: -40px;
+  margin-right: -40px;
+  background-size: auto;
+}
+		.audio{
+			display: none;
+		}
+		.information-text{
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+}
+	
+		}
